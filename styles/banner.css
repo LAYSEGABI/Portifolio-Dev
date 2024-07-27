@@ -1,0 +1,92 @@
+
+.banner {
+    background: url('../assets/Background_Intro.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 5em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.avatar {
+    width: 100px;
+    margin-bottom: 1em;
+}
+
+.banner-descricao {
+    width: 50%;
+    color: var(--lg-text-seundary);
+}
+h1 {
+    font-size: 2.5em;
+    color: var(--lg-text-color);
+    margin-bottom: 20px;
+}
+
+.banner-descricao p span {
+    color: var(--lg-red);
+}
+
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 2em ;
+}
+
+.habilidades a {
+    display: flex;
+    align-items: center;
+    padding: .5em 1.5em;
+    border-radius: 50px;
+    background-color: var(--lg-background-button);
+    justify-content: center;
+    text-decoration: none;
+    color: var(--lg-text-color);
+    gap: 10px;
+}
+
+.habilidades a img{
+    width: 20px;
+
+}
+
+.seta {
+    width: 25px;
+    margin-top: 3em;
+}
+
+@media (max-width: 900px) {
+    .banner {
+        background-position: left;
+    }
+
+    .banner-descricao {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner {
+        background-position: left;
+    }
+
+    .banner-descricao {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+}

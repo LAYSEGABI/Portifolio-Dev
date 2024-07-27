@@ -1,0 +1,50 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em ;
+    background: url("../assets/Background_Contacts.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+}
+
+.contato h2 {
+    margin: 10px 0;
+}
+
+.contato p:last-of-type {
+    opacity: .6;
+    font-size: .8em;
+}
+.contato-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 2em 0;
+    width: 250px;
+}
+.contato-item {
+    background-color: var(--lg-background-button);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 1em;
+    border-radius: 10px;
+}
+
+.contato-item div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 900px) {
+    .contato {
+        background-position: left;
+    }
+}
+
